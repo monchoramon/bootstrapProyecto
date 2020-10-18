@@ -1,0 +1,28 @@
+/* navbar */
+.navbar {
+    background-color: #4633af!important;
+}
+
+/* Head section */
+.section-hero {
+    padding: 200px 0px;
+    background: url(../images/section-hero/hero-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* Opinions section */
+.section-opinions {
+    padding: 100px 0px;
+    background: #262431;
+}
+
+#carouselOpinions > .carousel-inner {
+    padding: 0px 80px;
+}
+
+/* Media Query */
+@media(min-width:992px){
+    .navbar {
+        background-color: transparent!important;
+    }
+}

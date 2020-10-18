@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid y estructura</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.margen {
+			margin-top: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<h3 class="titular">Orden de Columnas</h3>
+		<hr class="margen">
+		<div class="row">
+
+			<div 
+			 class="col-4 order-lg-3" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 <p>Columna 1</p>
+			</div>
+
+			<div 
+			 class="col-4 order-2" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 <p>Columna 2</p>
+			</div>
+
+			<div 
+			 class="col-4 order-lg-1" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 <p>Columna 3</p>
+			</div>
+
+		</div>
+	</div>
+
+<script src="jquery/dist/jquery.min.js"></script>
+<script src="popper/popper.min.js"></script>
+<script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

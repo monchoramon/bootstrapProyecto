@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid y estructura</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.margen {
+			margin-top: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<h3 class="titular">DESPLAZAMIENTO DE COLUMNAS</h3>
+		<hr class="margen">
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+				
+			<div 
+			 class="col-md-4" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4
+			</div>
+
+			<div 
+			 class="col-md-4 offset-md-4" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 .col-md-4 .offset-md-4
+			</div>
+
+		</div>
+
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+			
+			<div 
+			 class="col-md-3 offset-md-3" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4
+			</div>
+
+			<div 
+			 class="col-md-3 offset-md-3" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 .col-md-4 .offset-md-4
+			</div>
+
+		</div>
+
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+
+			<div 
+			 class="col-md-6 offset-md-3" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 .col-md-4 .offset-md-4
+			</div>
+
+		</div>
+
+		<hr/>
+		<hr/>
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+
+			<div 
+			 class="col-md-4" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 .col-md-4
+			</div>
+
+			<div 
+			 class="col-md-4 ml-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 .col-md-4 ml-auto
+			</div>	
+
+		</div>
+
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+			
+			<div 
+			 class="col-md-3 ml-md-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4 ml-md-auto
+			</div>
+
+			<div 
+			 class="col-md-3 ml-md-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4 ml-md-auto 
+			</div>
+
+		</div>
+
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+			
+			<div 
+			 class="col-auto mr-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4 ml-md-auto
+			</div>
+
+			<div 
+			 class="col-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4 ml-md-auto 
+			</div>
+
+		</div>
+
+		<hr/>
+
+		<div class="row" style="background-color: #000; border: 1px solid red;">
+			
+			<div 
+			 class="col-6 ml-auto mr-auto" 
+			 style="background: lightgray; border: 1px solid #FFF;">
+			 	.col-md-4 ml-md-auto
+			</div>
+
+		</div>
+
+	</div>
+
+<script src="jquery/dist/jquery.min.js"></script>
+<script src="popper/popper.min.js"></script>
+<script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
